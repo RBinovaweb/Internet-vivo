@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222; /* Fundo escuro para combinar com o rodapé */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #333; /* Fundo mais escuro para contraste */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.planos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plano {
+    width: 30%;
+    padding: 15px;
+    background: #444; /* Fundo escuro para os planos */
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plano img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+}
+
+button {
+    background-color: #1E90FF; /* Azul vivo para destaque */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0a67cc;
+}
+
+#pagamento {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ff9800; /* Laranja para destaque */
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Estilização do rodapé */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #1E90FF;
+}
+
+.footer-section p, .footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-rights {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
